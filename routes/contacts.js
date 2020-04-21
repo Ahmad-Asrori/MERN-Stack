@@ -90,6 +90,6 @@ router.delete('/:id', auth, async (req, resp) => {
     console.error(e.message);
     resp.status(501).send('server error');
   }
-}
+})
 
 module.exports = router;
