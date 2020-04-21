@@ -1,0 +1,4 @@
+{
+  "MongoDBLocation": "mongodb://localhost/contact",
+  "JWTSecret": "secret"
+}
